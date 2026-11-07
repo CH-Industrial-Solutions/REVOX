@@ -575,3 +575,6 @@ kbd { background: var(--surface-3); border: 1px solid var(--line-2); border-bott
 .setup-step .input { padding-left: 14px; }
 .setup-step .grid { width: 100%; }
 .savebar { margin: 12px 24px 0; }
+/* Calendario laboral: días/turnos no laborales en gráficas */
+.bars .bar.off { background: repeating-linear-gradient(135deg, var(--muted) 0 4px, transparent 4px 8px); opacity: .6; }
+.legend .lg-off { background: repeating-linear-gradient(135deg, var(--muted) 0 3px, transparent 3px 6px); }
