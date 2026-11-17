@@ -1,19 +1,36 @@
-# REVOX® · Material Repack System
+# REVOX™ · Material Repack System
 
-Aplicación web de etiquetado y trazabilidad de reempaque (CH Industrial Solutions).
-Este repositorio contiene **solo el programa**. No contiene datos: catálogo, usuarios e historial
-viven en los Excel de la carpeta base compartida de cada planta.
+**© 2026 Carlos Alberto Hernández Hernández · CH Industrial Solutions. Todos los derechos reservados.**
 
-## Publicar en GitHub Pages
-1. Sube el contenido de esta carpeta a la raíz del repositorio `REVOX` (rama `main`).
-2. En GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)` → **Save**.
-3. En 1–2 minutos queda en `https://<tu-usuario>.github.io/REVOX/`.
+Sistema web de etiquetado 4×6 y trazabilidad de material reempacado: captura, impresión de etiquetas
+con QR, historial, productividad por turno contra meta, catálogos y reportes automáticos.
 
-## Usar
-- Abrir con **Google Chrome** o **Microsoft Edge** (necesitan permiso de carpetas).
-- La primera vez en cada PC: elegir la **carpeta base compartida**, nombre de la PC, modo (Impresión / Solo consulta)
-  y crear el **administrador de esta PC**.
-- Cada vez que se abre, Chrome pide confirmar el acceso a la carpeta (un clic en "Permitir acceso").
+> **Software propietario.** Este repositorio es público solo para su publicación técnica.
+> Ver el código no otorga permiso de uso, copia ni distribución. Ver [LICENSE](LICENSE).
 
-## Archivos
-- `index.html`, `app.js`, `css/app.css`, `uploads/branding/` (logos REVOX y CH).
+## Autor y titular
+**Carlos Alberto Hernández Hernández** — CH Industrial Solutions · *Automation · Data · Logistics* · Escobedo, N.L., México.
+
+## Cómo funciona
+- Corre completo en el navegador (Google Chrome o Microsoft Edge). No tiene servidor ni base de datos en internet.
+- Los datos viven en los Excel de una **carpeta base** que elige cada planta (catálogo, usuarios, historial y configuración).
+- Una PC funciona como **estación de impresión**; las demás consultan.
+
+## Privacidad
+- No usa cookies, ni analítica, ni rastreo. No envía datos a ningún servidor.
+- En el navegador guarda solo: la sesión (se borra al cerrar la pestaña), el tema y opciones de impresión, y los ajustes de la PC.
+- Los datos de la operación son propiedad y responsabilidad de la planta que los genera.
+
+## Contenido de este repositorio
+| Archivo | Qué es |
+|---|---|
+| `index.html`, `app.js`, `css/app.css` | El programa (compilado). |
+| `uploads/branding/` | Logotipos de REVOX™ y CH Industrial Solutions. |
+| `LICENSE` | Licencia de software propietario. |
+| `AVISOS_DE_TERCEROS.txt` | Licencias de las librerías incluidas (sql.js, SheetJS, bwip-js). |
+
+## Publicación
+GitHub Pages: **Settings → Pages → Deploy from a branch → `main` / `(root)`**.
+
+---
+REVOX™ y CH Industrial Solutions son marcas de Carlos Alberto Hernández Hernández (registro en trámite ante el IMPI cuando aplique).
